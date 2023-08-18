@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Montserrat&family=Rubik:ital,wght@1,600&display=swap');
+
+
+
+
+body{
+    background-color: #FEE715;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container{
+    margin:15%;
+    font-weight: 400;
+    
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+}
+.pass{
+    color: #101820;
+    border-bottom: 4px solid black;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(253, 251, 251);
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+
+#password{
+    display: flex;
+    width:200px;
+    border-color: transparent;
+    background-color: transparent;
+    outline: 0;
+}
+
+#copy{
+    display: flex;
+    width:50px;
+    height: 50px;
+}
+
+#generate{
+    background-color: green;
+    color: white;
+    padding: 5 px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+#generate:hover{
+  cursor: pointer; 
+  box-shadow: inset -6px -7px 9px rgba(0, 0, 0,.5);
+  transition:.5s ease all ;
+
+}
